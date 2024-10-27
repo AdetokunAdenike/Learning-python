@@ -6,5 +6,4 @@
 miles = input('Enter miles ')
 miles = int(miles)
 kilometers = miles * 1.60934
-kilometers = float(kilometers)
 print("{} miles equals {} kilometers".format(miles, kilometers))
