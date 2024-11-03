@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# A script that compiles a python script file
+
+# Check if the env var $PYFILE is empty
+if [ -z "$PYFILE" ]; then
+	# If true, print this
+	echo "Error: Environment variable is not set"
+	exit 1
+fi
+# Else, skip the condition and print this
+echo "Compiling file $PYFILE"
+
+# Compile Python code
+python3 -m py_compile "$PYFILE"
+
+# Move and rename the bytecode and send any error to null
+mv "__pycache__/${PYFILE%.*}".cpython-*.pyc "${PYFILE}c" 2>/dev/null
+
+# Delete the directory if empty and send any error to null
+rmdir __pycache__ 2>/dev/null
