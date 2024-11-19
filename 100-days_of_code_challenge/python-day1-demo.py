@@ -1,7 +1,8 @@
-print("Welcome to band name generator.")
+print("Welcome to username generator.")
 
-name = input('What is your name?\n')
+first_name = input('What is your first name?\n')
+last_name = input('What is your last name?\n')
 city = input('What city did you grow up in?\n')
-pet_name = input('What is your pet\'s name?\n')
 
-print("Hello " + name + "! your band name could be " + city +" "+ pet_name)
+
+print("Hello " + first_name + "! your username could be " + first_name + "_" + last_name + " " + "of" + " " + city)
