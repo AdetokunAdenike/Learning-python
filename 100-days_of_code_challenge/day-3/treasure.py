@@ -32,8 +32,8 @@ if x == "left":
         if z == "yellow":
             print("You Win")
         else:
-            print("Game Over")
+            print("You got attacked by an angry trout. Game Over")
     else:
-        print("Game Over")
+        print("You got attacked by a whale. Game Over")
 else:
-    print("Game Over")
+    print("You\'ve fallen over. Game Over")
