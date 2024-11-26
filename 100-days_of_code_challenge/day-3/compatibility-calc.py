@@ -10,9 +10,9 @@ e = name1_name2.count("e")
 first_word = t + r + u + e
 
 l = name1_name2.count("l")
-o = name1_name2.count("l")
-v = name1_name2.count("l")
-e = name1_name2.count("l")
+o = name1_name2.count("o")
+v = name1_name2.count("v")
+e = name1_name2.count("e")
 second_word = l + o + v + e
 
 total_count = int(str(first_word) + str(second_word))
