@@ -24,11 +24,10 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to treasure island. Your mission is to find the treasure.")
 
 x = input('You\'re at a cross-road, where do you want to go? Type "left" or "right"').lower()
-
 if x == "left":
-    y = input('Would you like to swim or wait? Type "swim" or "wait"').lower()
+    y = input('There is an Island in the middle of the lake, would you like to swim or wait? Type "swim" or "wait"').lower()
     if y == "wait":
-        z = input('Which door would you like to open? type "Blue" or "Red" or "Yellow"').lower()
+        z = input('You arrived at the Island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which door would you like to open? type "Blue" or "Red" or "Yellow"').lower()
         if z == "yellow":
             print("You Win")
         else:
