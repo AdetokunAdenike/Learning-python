@@ -19,4 +19,4 @@ if extra_egg == "Y":
         bill += 500
 if extra_bread == "Y":
         bill += 500
-print(f"Your final bill is N{bill}")
+print(f"Your final bill is {bill} naira")

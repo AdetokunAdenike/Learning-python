@@ -30,8 +30,10 @@ if x == "left":
         z = input('You arrived at the Island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which door would you like to open? type "Blue" or "Red" or "Yellow"').lower()
         if z == "yellow":
             print("You Win")
+        elif z == "red":
+            print("You got burned by fire. Game Over")
         else:
-            print("You got attacked by an angry trout. Game Over")
+            print("You got attacked by a beast. Game Over")
     else:
         print("You got attacked by a whale. Game Over")
 else:
