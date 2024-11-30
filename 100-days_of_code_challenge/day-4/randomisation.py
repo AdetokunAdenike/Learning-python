@@ -1,4 +1,7 @@
 import random
 
-random_float = random.random()
-print(random_float)
+random_integer = random.randint(0, 1)
+if random_integer == 1:
+    print("Heads")
+else:
+    print("Tails")
